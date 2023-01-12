@@ -6,20 +6,46 @@ function sumNumbers(first, last) {
   // TODO
 }
 
-it('should compute the sum', () => {
-  // TODO : sum from 1 to 10
-  // TODO : sum from 1 to 1
-  // TODO : sum from 10 to 1
-  // TODO : sum from 10 to 20
+it('should compute the sum from 1 to 10', () => {
+  const expected = 'TODO'
+  expect(sumNumbers(1, 10)).toEqual(expected)
+})
+
+it('should compute the sum from 10 to 20', () => {
+  const expected = 'TODO'
+  expect(sumNumbers(10, 20)).toEqual(expected)
+})
+
+it('should compute the sum from 1 to 1', () => {
+  const expected = 'TODO'
+  expect(sumNumbers(1, 1)).toEqual(expected)
+})
+
+it('should compute the sum from 10 to 1', () => {
+  const expected = 'TODO'
+  expect(sumNumbers(10, 1)).toEqual(expected)
 })
 
 function fizzBuzz(param) {
   // TODO
 }
 
-it('should return the fizz buzz result', () => {
-  // TODO : fizzbuzz of 1
-  // TODO : fizzbuzz of 3
-  // TODO : fizzbuzz of 5
-  // TODO : fizzbuzz of 15
+it('should return an empty result for 1', () => {
+  const expected = 'TODO'
+  expect(fizzBuzz(1)).toEqual('')
+})
+
+it('should return fizz for 3', () => {
+  const expected = 'TODO'
+  expect(fizzBuzz(3)).toEqual('')
+})
+
+it('should return buzz for 5', () => {
+  const expected = 'TODO'
+  expect(fizzBuzz(1)).toEqual('')
+})
+
+it('should return fizzbuzz for 15', () => {
+  const expected = 'TODO'
+  expect(fizzBuzz(15)).toEqual('')
 })
