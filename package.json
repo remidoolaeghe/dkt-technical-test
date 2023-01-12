@@ -2,9 +2,8 @@
   "name": "dkt-technical-test",
   "version": "1.0.0",
   "description": "technical test for Decathlon",
-  "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
