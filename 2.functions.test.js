@@ -1,3 +1,7 @@
+function fillArrayFromTo(start, end) {
+  return Array(end - start + 1).fill(null).map((item, i) => start + i)
+}
+
 function sumNumbers(first, last) {
   // TODO
 }
@@ -6,9 +10,10 @@ it('should compute the sum', () => {
   // TODO : sum from 1 to 10
   // TODO : sum from 1 to 1
   // TODO : sum from 10 to 1
+  // TODO : sum from 10 to 20
 })
 
-function fizzBuzz() {
+function fizzBuzz(param) {
   // TODO
 }
 
