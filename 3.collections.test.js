@@ -31,27 +31,27 @@ function getNamesUnder(age) {
 
 it('should return Tobby, Rex and Felix under age 12', () => {
   const expected = 'TODO'
-  expect(getNamesUnder(12))
+  expect(getNamesUnder(12)).toEqual(expected)
 })
 
 it('should return Rex and Felix under age 8', () => {
   const expected = 'TODO'
-  expect(getNamesUnder(8))
+  expect(getNamesUnder(8)).toEqual(expected)
 })
 
 it('should return Tobby, Rex and Felix under age 7', () => {
   const expected = 'TODO'
-  expect(getNamesUnder(7))
+  expect(getNamesUnder(7)).toEqual(expected)
 })
 
 it('should return Felix under age 1', () => {
   const expected = 'TODO'
-  expect(getNamesUnder(1))
+  expect(getNamesUnder(1)).toEqual(expected)
 })
 
 it('should return an empty array under age 0', () => {
   const expected = 'TODO'
-  expect(getNamesUnder(0))
+  expect(getNamesUnder(0)).toEqual(expected)
 })
 
 function getDogsMeanAge() {
