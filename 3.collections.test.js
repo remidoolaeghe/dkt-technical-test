@@ -29,11 +29,29 @@ function getNamesUnder(age) {
   // TODO
 }
 
-it('should return an array of names under age', () => {
-  // TODO : get names under 12
-  // TODO : get names under 8
-  // TODO : get names under 1
-  // TODO : get names under 0
+it('should return Tobby, Rex and Felix under age 12', () => {
+  const expected = 'TODO'
+  expect(getNamesUnder(12))
+})
+
+it('should return Rex and Felix under age 8', () => {
+  const expected = 'TODO'
+  expect(getNamesUnder(8))
+})
+
+it('should return Tobby, Rex and Felix under age 7', () => {
+  const expected = 'TODO'
+  expect(getNamesUnder(7))
+})
+
+it('should return Felix under age 1', () => {
+  const expected = 'TODO'
+  expect(getNamesUnder(1))
+})
+
+it('should return an empty array under age 0', () => {
+  const expected = 'TODO'
+  expect(getNamesUnder(0))
 })
 
 function getDogsMeanAge() {
@@ -41,5 +59,6 @@ function getDogsMeanAge() {
 }
 
 it('should return dog names', () => {
-  expect(getDogsMeanAge()).toEqual(9.5)
+  const expected = 'TODO'
+  expect(getDogsMeanAge()).toEqual(expected)
 })
